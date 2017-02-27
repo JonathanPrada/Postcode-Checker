@@ -1,0 +1,41 @@
+#title {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+    position: relative;
+    top: 20px;
+}
+
+#postcode {
+    position: relative;
+    top: 150px;
+}
+
+
+#map {
+height: 500px;
+}
+
+.txt:hover {
+    text-decoration: underline;
+}
+
+#postcodesearch {
+    height:46px;
+    font-size:30pt;
+}
+
+#notification {
+    position: relative;
+    top: 500px;
+    z-index: 99;
+}
+
+#locations {
+    position: relative;
+    top: 50px;
+}
+
+.alert {
+    height: 70px;
+    font-size: 20px;
+}

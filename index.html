@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Postcode Checker</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <script src="js/postcode.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!-- Title -->
+        <div id="title">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                <h1>Areas we serve</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Links -->
+        <div id="locations">
+            <div class="row">
+                <div class="col-md-2 text-center">
+                </div>
+                <div class="col-md-2 text-center txt">
+                    <h2 onclick="northLondon()">North London</h2>
+                </div>
+                <div class="col-md-2 text-center txt">
+                    <h2 onclick="eastLondon()">South London</h2>
+                </div>
+                <div class="col-md-2 text-center txt">
+                    <h2 onclick="southLondon()">East London</h2>
+                </div>
+                <div class="col-md-2 text-center txt">
+                    <h2 onclick="westLondon()">West London</h2>
+                </div>
+                <div class="col-md-2 text-center">
+                </div>
+            </div>
+        </div>
+
+        <!-- Postcode box  -->
+        <div id="postcode">
+            <div class="row">
+                <div class="col-md-4"></div>
+                    <div class="col-md-4 text-center">
+                        <div class="input-group">
+                          <input id="postcodesearch" type="text" class="form-control" placeholder="Check your postcode">
+                          <span class="input-group-btn">
+                            <button id="submit" class="btn btn-default glyphicon glyphicon-search btn-lg" type="button"></button>
+                          </span>
+                        </div>
+                    </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+
+        <!-- Notification  -->
+        <div id="notification">
+            <div class="row">
+                <div class="col-md-4"></div>
+                    <div class="col-md-4 text-center align-middle">
+                        <div id="notificationtext" class="alert alert-success text-center" role="alert">Check if you we serve your area</div>
+                    </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+
+        <!-- Map container  -->
+        <div class="row">
+            <div id="map"></div>
+        </div>
+
+        <!-- Client information  -->
+        <div class="row">
+            <div class="col-md-4"></div>
+                <div class="col-md-4 text-center">
+                    <div class="input-group">
+                        <br>
+                        <h3>We serve hundreds of customers in London</h3>
+                        <br>
+                        <text>Waste management and recycling for businesses in London. We help <b>HUNDREDS</b> of firms in the city keep all their waste under control and ensure as much as possible gets recycled. We have several trucks on the road 24 hours a day, 7 days a week, collecting
+                        from businesses daily.</text>
+                    </div>
+                </div>
+            <div class="col-md-4"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <br>
+                <a target="_blank" href="http://pradacontractservices.com/#contact" class="btn btn-default btn-md" role="button">Get in touch</a>
+                <br><br><br>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC81Rfp1wiO_DqGI0nY8BvZmpyhkqi19dQ&callback=initMap"
+    async defer></script>
+</body>
+</html>
