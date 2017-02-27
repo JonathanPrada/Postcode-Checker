@@ -11,7 +11,7 @@ postcode.js - Geocoding and Data layering with Google Maps.
 ## INSTALLATION
 
 Download or git clone.
-You need a personal API key for this project to work.
+You need a personal Google JavaScript MAP API key for this project to work.
 
 ## CONFIGURATION
 
