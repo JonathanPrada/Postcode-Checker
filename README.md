@@ -23,6 +23,10 @@ index.html
 
 Open index.html
 
+## TODO
+
+Connect to database to store postcodes
+
 ## DEMO
 
 Live demo: http://jonathanprada.com/postcode/
